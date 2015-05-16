@@ -74,11 +74,11 @@ var BackgroundLayer = me.ImageLayer.extend({
 
 var Share = me.GUI_Object.extend({
     init: function(x, y) {
-        var settings = {};
-        settings.image = "share";
-        settings.spritewidth = 150;
-        settings.spriteheight = 75;
-        this._super(me.GUI_Object, 'init', [x, y, settings]);
+        //var settings = {};
+        //settings.image = "share";
+        //settings.spritewidth = 150;
+        //settings.spriteheight = 75;
+        //this._super(me.GUI_Object, 'init', [x, y, settings]);
     },
 
     onClick: function(event) {
@@ -103,11 +103,11 @@ var Share = me.GUI_Object.extend({
 
 var Tweet = me.GUI_Object.extend({
     init: function(x, y) {
-        var settings = {};
-        settings.image = "tweet";
-        settings.spritewidth = 152;
-        settings.spriteheight = 75;
-        this._super(me.GUI_Object, 'init', [x, y, settings]);
+        //var settings = {};
+        //settings.image = "tweet";
+        //settings.spritewidth = 152;
+        //settings.spriteheight = 75;
+        //this._super(me.GUI_Object, 'init', [x, y, settings]);
     },
 
     onClick: function(event) {
